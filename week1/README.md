@@ -26,6 +26,10 @@ Note:
 ```
   The number of nodes in the given list will be between 1 and 100.
 ```
+## solution
+Solved! look in challenge2.
+
+Another interesting approach that could have been taken, would be to use a second pointer that goes to `next->next`. When this one get to the end (`NULL`), the 1st pointer going to `next->` would be half way. 
 
 # Challenge 2
 URL: https://leetcode.com/problems/longest-common-prefix/
